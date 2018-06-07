@@ -16,14 +16,21 @@ public class TheRiddler {
 		// one
 		if (answer.equals("13")) {
 			JOptionPane.showMessageDialog(null, "Yesssss");
+			score = score + 1;
 		}
 		// 5. Otherwise, say "wrong" and tell them the answer
 		else {
 			JOptionPane.showMessageDialog(null, "wrong");
 		}
 		// 6. Add some more riddles
-
-		// 2. Make a pop up to show the score.
+String answer2 = JOptionPane.showInputDialog("what kind of pig does karate?" );
+if(answer.equals(pork chop)) {
+	JOptionPane.showMessageDialog(null, "Thats right!!!");
+		
+}
+else {
+		JOptionPane.showMessageDialog(null, "sorry wrong answer");
 
 	}
+JOptionPane.showMessageDialog(null,"congrats, your score is "+score );
 }
